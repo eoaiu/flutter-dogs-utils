@@ -1,0 +1,25 @@
+{
+  "name": "datautils",
+  "version": "1.0.0",
+  "description": "small utility lib",
+  "main": "DataUtils.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "zuyo",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-things": "^0.2.0",
+    "chance": "^1.0.10",
+    "csv-generate": "^1.0.0"
+  },
+  "dependencies": {
+    "feedparser": "^2.2.1",
+    "moment": "^2.18.1",
+    "request": "^2.81.0"
+  }
+}
